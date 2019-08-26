@@ -59,7 +59,7 @@ end
     end
    
     if text then 
-    if (text == 'احصائيات المطورين' and tonumber(msg.sender_user_id_) == tonumber(sudo_add) )then 
+    if (text == 'احصائيات المطورن' and tonumber(msg.sender_user_id_) == tonumber(sudo_add) )then 
     local user_info = database:hgetall('tshake:'..bot_id..'user:'..sudo_add)
     local username = nil
     if user_info and user_info.username then
