@@ -1,6 +1,6 @@
 #!/usr/bin/env bash
 sudo ls
-cd Tshake
+cd RXSORUCE
 chmod +x tg
 chmod +x ts
 chmod +x TsAu
