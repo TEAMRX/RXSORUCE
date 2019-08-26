@@ -160,7 +160,7 @@ end
 
 function  Rutba(user_id,chat_id)
 if is_devabass(user_id) then
-var = 'المطور الاساسي'  
+var = 'مطوري'  
 elseif database:sismember('tshake:'..bot_id..'dev', user_id) then
 var = 'المطور'  
 elseif database:sismember('tshake:'..bot_id..'creatorbasic:'..chat_id, user_id) then
